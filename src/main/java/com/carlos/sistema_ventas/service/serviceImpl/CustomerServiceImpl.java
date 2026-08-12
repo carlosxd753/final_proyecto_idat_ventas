@@ -2,6 +2,7 @@ package com.carlos.sistema_ventas.service.serviceImpl;
 
 import com.carlos.sistema_ventas.dto.customer.CustomerRequest;
 import com.carlos.sistema_ventas.dto.customer.CustomerResponse;
+import com.carlos.sistema_ventas.exception.ResourceNotFoundException;
 import com.carlos.sistema_ventas.mapper.CustomerMapper;
 import com.carlos.sistema_ventas.model.Customer;
 import com.carlos.sistema_ventas.repository.CustomerRepository;

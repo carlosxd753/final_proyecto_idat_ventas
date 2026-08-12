@@ -8,6 +8,7 @@ import java.util.List;
 public interface SellerService {
     List<SellerResponse> findAll();
     SellerResponse findById(Long id);
+    SellerResponse login(String email, String password);
     SellerResponse create(SellerRequest request);
     SellerResponse update(Long id, SellerRequest request);
     void delete(Long id);

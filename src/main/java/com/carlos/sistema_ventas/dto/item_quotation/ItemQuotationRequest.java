@@ -5,7 +5,7 @@ import jakarta.validation.constraints.NotNull;
 
 public record ItemQuotationRequest(
         @NotNull
-        Integer productId,
+        Long productId,
         @NotNull
         @Min(1)
         Integer quantity

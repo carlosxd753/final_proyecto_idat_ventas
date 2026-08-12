@@ -8,9 +8,9 @@ import java.util.List;
 
 public record QuotationRequest(
         @NotNull
-        Integer sellerId,
+        Long sellerId,
         @NotNull
-        Integer customerId,
+        Long customerId,
         @NotEmpty
         List<ItemQuotationRequest> items
 ) {

@@ -4,6 +4,6 @@ import jakarta.validation.constraints.NotNull;
 
 public record SaleRequest(
         @NotNull
-        Integer quotationId
+        Long quotationId
 ) {
 }

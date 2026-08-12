@@ -6,7 +6,7 @@ import java.math.BigDecimal;
 
 public record ProductRequest(
         @NotNull
-        Integer categoryId,
+        Long categoryId,
         @NotBlank
         @Size(max = 150)
         String name,
